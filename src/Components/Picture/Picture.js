@@ -6,7 +6,7 @@ const Picture = (props) => {
 
     return (
         <div className="astro-photo">
-            <iframe src={props.image} alt={props.title} title={props.title}></iframe>
+            <img src={props.image} alt={props.title} title={props.title}></img>
             <button onClick={props.clicked}>Click for HD Image</button>
         </div>
     )
